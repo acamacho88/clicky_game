@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Kaiser Willhelm II",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Tsar Nicholas II",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg"
+    },
+    {
+        "id": 3,
+        "name": "King George V",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kinggeorgev1923.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Woodrow Wilson",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/President_Woodrow_Wilson_by_Harris_%26_Ewing%2C_1914-crop2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Enver Pasha",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ismail_Enver.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Franz Joseph",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Emperor_Francis_Joseph.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Georges Clemenceau",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Georges_Clemenceau_1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "King Albert I",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Portrait_of_Albert_I_of_Belgium.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Victor Emmanuel III",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Vitorioemanuel.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Ferdinand I",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Zar_Ferdinand_Bulgarien.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Vladimir Lenin",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Bundesarchiv_Bild_183-71043-0003%2C_Wladimir_Iljitsch_Lenin.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Peter I",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Peter_I_Karadjordjevic_of_Serbia.jpg"
+    }
+]

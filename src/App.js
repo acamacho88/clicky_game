@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Picture from './components/Picture';
+import leaders from './leaders.json';
+import Heading from './components/Heading';
 
 class App extends Component {
+  state = {
+    leaders
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Heading />
+        <div className="imageContainer">
+          {this.state.leaders.map(leader => (
+            <Picture
+              id={leader.id}
+              src={leader.image}
+              name={leader.name}
+              key={leader.id}
+              alt={leader.name}
+            />
+          ))}
+        </div>
       </div>
     );
   }

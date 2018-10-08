@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
+.imageContainer {
+  width: 700px;
+  height: 600px;
+  margin-left: 25%;
+}
