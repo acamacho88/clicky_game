@@ -1,10 +1,17 @@
 .headingContainer {
     width: 100%;
     height: 100px;
+    background-color: blue;
+    font-size: 30px;
+    text-align: center;
+    color: white;
 }
-
+ 
 .headingContainer div {
-    height: 100%;
+    position: relative;
     width: 33%;
-    margin: 0px;
+} 
+
+.scorecard {
+    right: 0px;
 }
