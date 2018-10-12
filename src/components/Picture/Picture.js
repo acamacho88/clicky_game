@@ -4,16 +4,16 @@ import "./Picture.css";
 class Picture extends Component {
     // Setting the component's initial state
     state = {
-        src: this.props.src,
-        clicked: false,
-        alt: this.props.alt,
-        name: this.props.name
+        clicked: 0,
     };
 
     handleClick = event => {
-        this.setState({
-            clicked: true
-        })
+        console.log("here!");
+        if (this.state.clicked == 0) {
+            this.setState({
+                clicked: 1
+            })
+        }
     }
 
     /* handleInputChange = event => {
@@ -51,11 +51,11 @@ class Picture extends Component {
     render() {
         // Notice how each input has a `value`, `name`, and `onChange` prop
         return (
-            <div className="card" onClick={this.handleClick}>
+            <div className="card" onClick={this.props.onClick}>
                 <img
-                    src={this.state.src}
+                    src={this.props.src}
                     clicked={this.state.clicked}
-                    alt={this.state.alt}
+                    alt={this.props.alt}
                 />
             </div >
         );

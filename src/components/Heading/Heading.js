@@ -16,7 +16,7 @@ class Heading extends Component {
                 <div className="currentResult">
                 </div>
                 <div className="scorecard">
-                    Your score: {this.state.score} | Top score: {this.state.topScore}
+                    Your score: {this.props.currScore} | Top score: {this.props.highScore}
                 </div>
             </div>
         );
